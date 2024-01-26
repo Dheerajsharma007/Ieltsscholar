@@ -1,0 +1,44 @@
+/*------writingmain-----*/
+*{
+    margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'poppin:' , sans-serif;
+}
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: black;
+gap: 100px;
+}
+.buton1{
+    position: relative;
+    background: white;
+    color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 450;
+    padding: 10px 30px;
+    transition: 0.5s;
+    }
+    .buton1:hover{
+        background: var(--clr);
+        background-color: var(--clr);
+        letter-spacing: 0.25em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+    .buton1:before{
+        content: '';
+    position: absolute;
+inset: 2px;    
+background: #27282c;
+}
+.buton1 span{
+    position: relative;
+z-index: 1;
+}
